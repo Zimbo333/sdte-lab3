@@ -2,9 +2,46 @@
 <html>
 <head>
 	<title>61070074</title>
+	<style>
+		body{
+			width: 100vw;
+			height: 100vh;
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-flow: row wrap;
+		}
+		.card{
+			background-color: aquamarine;
+			padding: 2em;
+			display: flex;
+			flex-direction: row wrap;
+		}
+		.card > section{
+			padding-right: 1em;
+		}
+		img{
+			width: 5em;
+			height: 5em;
+			border-radius: 50%;
+		}
+		.profile-pic{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
 </head>
 <body>
-	<h1>61070074</h1>
-	<h2>นาย ธนวัฒน์ เขมวัชรเลิศ</h2>
+	<div class="card">
+		<section class="profile-pic">
+			<img src="https://i.imgur.com/8SeKX6U.jpg" alt="">
+		</section>
+		<section class="profile-detail">
+			<h1>61070074</h1>
+			<h2>นาย ธนวัฒน์ เขมวัชรเลิศ</h2>
+		</section>
+	</div>
 </body>
 </html>
